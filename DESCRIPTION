@@ -3,8 +3,8 @@ Type: Package
 Title: 'minm' is not meta
 Version: 0.0.1
 Date: 2019-10-26
-Author: Dirk Eddelbuettel
-Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Authors@R: person("Dirk", "Eddelbuettel", role = c("aut", "cre"), email = "edd@debian.org",
+                  comment = c(ORCID = "0000-0001-6419-907X"))
 Description: One way to get hold of several 'RMarkdown'-using packages for 'Beamer' slides,
  letters, vignettes / short papers, and Tufte-alike handouts / write-ups.
 License: GPL (>= 2)
