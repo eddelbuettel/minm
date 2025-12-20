@@ -5,15 +5,18 @@ Minm is not meta: One way to get several RMarkdown-using packages
 
 ### Installation
 
-As the package is not on CRAN, you can use the [ghrr drat
-repo](https://ghrr.github.io/drat/) to install via one additional line as in
+As the package is not on CRAN, you can use r-universe which can accessed via
 
-```r
-drat:::addRepo("ghrr")     # registers the ghrr drat repo
-install.packages("minm")   # installs minm from ghrr
+```{.r}
+install.packages('minm',
+                 repos = c('https://eddelbuettel.r-universe.dev',
+                           'https://cloud.r-project.org'))
 ```
 
-Once installed, the above code examples should work as expected.
+and offers source and binaries releases based on the main `git` branch for the common operating
+systems.  Linux binaries are also available, see the corresponding
+[documentation](https://docs.r-universe.dev/install/binaries.html#binaries-linux).
+
 
 ### See Also
 
